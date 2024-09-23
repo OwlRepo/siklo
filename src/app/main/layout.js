@@ -32,9 +32,9 @@ function MainLayout({ children }) {
   ];
 
   return (
-    <div className="relative h-[100vh]">
-      {children}
-      <div className="flex fixed bottom-0 w-full bg-white/70 h-[70px] justify-center space-x-14">
+    <div className="relative h-[100vh] bg-siklo-background overflow-y-auto">
+      <div className="p-5 h-full">{children}</div>
+      <div className="flex fixed bottom-0 w-full bg-white/90 h-[70px] justify-center space-x-14">
         {TAB_ROUTES.map((tab) => (
           <Link
             key={tab.name}

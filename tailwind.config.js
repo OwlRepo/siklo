@@ -33,6 +33,9 @@ module.exports = {
         "sub-header": "600",
       },
       colors: {
+        "siklo-primary": "#055FFC",
+        "siklo-accent": "#13BE68",
+        "siklo-background": "#EBECF0",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
